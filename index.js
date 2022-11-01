@@ -1,7 +1,7 @@
 // One
 // let string = "";
 // for (let x = 10; x <= 20; x++) {
-//   const comma = x!= 20 ? "," : '';
+//   const comma = x!== 20 ? "," : '';
 //   string += x + comma;
 // }
 // console.log(string);
@@ -26,12 +26,12 @@
 // }
 // console.log(sum);
 
-// // Five
-// let number = 1;
-// for (let h = 3; h <= 6; h++) {
-//   number = number * h;
-// }
-// console.log(number);
+// Five
+let number = 1;
+for (let h = 15; h <= 35; h++) {
+  number = number * h;
+}
+console.log(number);
 
 
 // // Six
@@ -47,7 +47,7 @@
 // // Seven
 // let pairedNumbers = 0;
 // for (let l = 30; l <= 80; l++) {
-//   if (l % 2 == 0) {
+//   if (l % 2 === 0) {
 //     pairedNumbers += l;
 //   }
 // }
@@ -55,7 +55,7 @@
 
 // // Eight
 // for (let r = 100; r <= 200; r++) {
-//   if (r % 3 == 0) {
+//   if (r % 3 === 0) {
 //     console.log(r);
 //   }
 // }
@@ -68,7 +68,7 @@
 //   let sumPairDivides = 0;
 //   while (countTwo <= num) {
 //     if (num % countTwo == 0) console.log(countTwo);
-//     if (countTwo % 2 == 0) {
+//     if (countTwo % 2 === 0) {
 //       amountPairDividerst++;
 //       sumPairDivides += countTwo;
 //     }
